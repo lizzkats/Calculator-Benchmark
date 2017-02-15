@@ -1,0 +1,91 @@
+.container {
+  width: 239px;
+  height: 385px;
+  margin: 100px auto;
+  border-radius: 10px;
+  background-color: #A0A0A0;
+  -moz-box-shadow: 3px 3px 5px 6px #7a7a7a;
+  -webkit-box-shadow: 3px 3px 5px 6px #7a7a7a;
+  box-shadow: 5px 5px 200px 20px #7a7a7a;
+}
+.total {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 90px;
+  width: 239px;
+  background-color: #A0A0A0;
+  color: white;
+  font-size: 50px;
+  text-align: right;
+}
+#calculator-0 {
+  padding-top: 25px;
+  padding-right: 8px;
+}
+p {
+  margin-top: 10px;
+}
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.flex-row {
+  display: flex;
+  width: 250px;
+  height: 58px;
+  margin-top: 1px;
+}
+
+.flex-item {
+  background-color: #E0E0E0;
+  font-size: 20px;
+  width: 58px;
+  height: 58px;
+  margin: 1px;
+  text-align: center;
+}
+
+.flex-item:hover {
+  background-color: #808080;
+  transition: 100ms;
+}
+
+.flex-item:active {
+  background-color: #595959;
+  transition: 100ms;
+}
+
+#equals {
+  background-color: #EA9649;
+  color: #f0f0f0;
+  border-bottom-right-radius: 10px;
+}
+
+#equals:hover {
+  background-color: #808080
+}
+
+#equals:active {
+  background-color: #595959
+}
+
+#operator {
+  background-color: #EA9649;
+  color: #f0f0f0;
+}
+
+#operator:active {
+  background-color: #595959
+}
+
+#operator:hover {
+  background-color: #808080
+}
+
+#zero-button {
+    width: 118px;
+    height: 58px;
+    margin: 1px;
+    justify-content: center;
+    border-bottom-left-radius: 10px;
+}
