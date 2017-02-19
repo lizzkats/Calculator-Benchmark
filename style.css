@@ -6,7 +6,7 @@
   background-color: #A0A0A0;
   box-shadow: 5px 5px 200px 20px #7a7a7a;
 }
-.total {
+#total {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   height: 90px;
@@ -27,14 +27,14 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.flex-row {
+.calc-row {
   display: flex;
   width: 250px;
   height: 58px;
   margin-top: 1px;
 }
 
-.flex-item {
+.calc-item {
   background-color: #E0E0E0;
   font-size: 20px;
   width: 58px;
@@ -43,12 +43,12 @@ body {
   text-align: center;
 }
 
-.flex-item:hover {
+.calc-item:hover {
   background-color: #808080;
   transition: 100ms;
 }
 
-.flex-item:active {
+.calc-item:active {
   background-color: #595959;
   transition: 100ms;
 }
