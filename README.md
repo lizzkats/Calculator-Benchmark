@@ -1,5 +1,5 @@
 # Calculator-Benchmark
-A rebuild of the iOS calculator
+A rebuild of the iOS calculator done as a Learners Guild Project
 
 ## Specs
 
